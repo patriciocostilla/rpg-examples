@@ -1,5 +1,6 @@
      H dftactgrp(*no)
      D* Data definition
+     D* Prototype for procedure Square. This is optional
      Dsquare           pr            10i 0
      D pnum                           5i 0 value
      D* Global variables
