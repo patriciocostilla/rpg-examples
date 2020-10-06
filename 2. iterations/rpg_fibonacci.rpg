@@ -1,0 +1,17 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           N       40
+     C* VARIABLE INITIALIZATION
+     C                     Z-ADD0         NUM1    40
+     C                     Z-ADD1         NUM2    40
+     C                     Z-ADD0         NEXT    40
+     C* PROGRAM START
+     C           1         DO   N
+     C           NUM1      DSPLY
+     C           NUM1      ADD  NUM2      NEXT
+     C                     Z-ADDNUM2      NUM1
+     C                     Z-ADDNEXT      NUM2
+     C                     ENDDO
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL FBNCC PARM(X'00010F')
