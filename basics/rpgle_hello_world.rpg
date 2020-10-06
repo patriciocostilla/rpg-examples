@@ -1,0 +1,4 @@
+     Dmystr            s             12A
+     C                   eval      mystr = 'Hello world!'
+     C     mystr         dsply
+     C                   eval      *inlr = *on
