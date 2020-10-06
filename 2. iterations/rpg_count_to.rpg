@@ -1,0 +1,12 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           N       40
+     C* START COUNTING
+     C                     Z-ADD1         IDX     40
+     C           IDX       DOWLEN
+     C           IDX       DSPLY
+     C                     ADD  1         IDX
+     C                     ENDDO
+     C                     SETON                         LR
+     C* EXAMPLE CALL
+     C* CALL COUNTRG PARM(X'00010F')
