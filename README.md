@@ -8,6 +8,8 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 
 ## Some activities
 
+### Basics and iterations
+
 1. Show on screen the first N numbers, given an arbitrary N.
 1. Show on screen the SUM of the first N numbers, given an arbitrary N.
 1. Show on screen the factorial of an arbitrary number N.
@@ -20,4 +22,13 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 1. Given an arbitrary number N, determine if it is a prime number.
 1. Show on screen all the even numbers from 1 to N, given an arbitrary N.
 1. Print on screen the first N prime numbers, given an arbitrary N.
+
+### File managing
+
 1. Read a file and show it's records on screen.
+1. Read a file and count the amount of records.
+1. Read a file and calculate the sum of one numeric field.
+1. Read a file and calculate the average of one numeric field.
+1. Read a file and update one column on all the records.
+1. Read a file and update one column on one specific record, based on a given Key.
+1. Mass insert records on a file.
