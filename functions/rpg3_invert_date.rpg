@@ -1,0 +1,21 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           DATEIN  80
+     C* PROGRAM START
+     C* BREAK DATE
+     C           DATEIN    DIV  100       DATEIN
+     C                     MVR            DAY     20
+     C           DATEIN    DIV  100       DATEIN
+     C                     MVR            MONTH   20
+     C                     Z-ADDDATEIN    YEAR    40
+     C* GET INVERTED DATE
+     C           DAY       MULT 1000000   DAYOUT  80
+     C           MONTH     MULT 10000     MONOUT  60
+     C                     Z-ADDYEAR      YEAOUT  40
+     C           DAYOUT    ADD  MONOUT    DATEOU  80
+     C           YEAOUT    ADD  DATEOU    DATEOU
+     C* SHOW RESULTS
+     C           DATEOU    DSPLY
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL INVDATE PARM(X'019960531F')
