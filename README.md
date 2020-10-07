@@ -9,7 +9,8 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 ## Some activities
 
 1. Given an arbitrary number (N) determine if it is even.
-1. Determine if a given number N is a multiple of another number M
+1. Given two arbitrary numbers N and M, calculate N^M.
+1. Determine if a given number N is a multiple of another number M.
 1. Show on screen the first N numbers, given an arbitrary N.
 1. Show on screen the SUM of the first N numbers, given an arbitrary N.
 1. Show on screen the factorial of an arbitrary number N.
