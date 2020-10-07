@@ -1,0 +1,13 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           N       10
+     C* VARIABLE INITIALIZATION
+     C                     Z-ADD1         FACT    70
+     C* PROGRAM START
+     C           1         DO   N         IDX     20
+     C                     MULT IDX       FACT
+     C                     ENDDO
+     C           FACT      DSPLY
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL FACTNUM PARM(X'8F')

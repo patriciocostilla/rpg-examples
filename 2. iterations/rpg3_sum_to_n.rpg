@@ -1,0 +1,13 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           N       20
+     C* VARIABLE INITIALIZATION
+     C                     Z-ADD0         SUM     30
+     C* PROGRAM START
+     C           1         DO   N         IDX     20
+     C                     ADD  IDX       SUM
+     C                     ENDDO
+     C           SUM       DSPLY
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL SUMNUM PARM(X'010F')

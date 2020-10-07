@@ -1,0 +1,14 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           N       10
+     C                     PARM           M       10
+     C* VARIABLE INITIALIZATION
+     C                     Z-ADD1         POW     90
+     C* PROGRAM START
+     C           1         DO   M
+     C                     MULT N         POW
+     C                     ENDDO
+     C           POW       DSPLY
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL POWNUM PARM(X'2F' X'4F')
