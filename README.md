@@ -16,6 +16,8 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 1. Show on screen the factorial of an arbitrary number N.
 1. Show on screen all the even numbers from 1 to N, given an arbitrary N.
 1. Show on screen the first N numbers of fibonacci sequence, given an arbitrary N.
+1. Given an arbitrary number N, determine if it is a prime number.
 1. Print on screen the first N prime numbers, given an arbitrary N.
 1. Read a file and show it's records on screen.
 1. Given an arbitrary number (N), get the binary representation of it.
+1. Given two arbitrary numbers, M and N, get the n-base representation of M
