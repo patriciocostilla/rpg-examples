@@ -18,3 +18,4 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 1. Show on screen the first N numbers of fibonacci sequence, given an arbitrary N.
 1. Print on screen the first N prime numbers, given an arbitrary N.
 1. Read a file and show it's records on screen.
+1. Given an arbitrary number (N), get the binary representation of it.

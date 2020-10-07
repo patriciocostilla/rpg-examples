@@ -1,0 +1,23 @@
+     C* PARAMETER LIST
+     C           *ENTRY    PLIST
+     C                     PARM           INNUM   40
+     C* VARIABLE INITIALIZATION
+     C                     Z-ADD0         REST    10
+     C                     MOVE *BLANKS   RESTS   1
+     C                     MOVE *BLANKS   OUNUM  14
+     C                     Z-ADD0         COUNT   40
+     C* PROGRAM START
+     C           INNUM     DOWGE2
+     C           INNUM     DIV  2         INNUM
+     C                     MVR            REST
+     C                     MOVE REST      RESTS
+     C           RESTS     CAT  OUNUM     OUNUM
+     C                     ENDDO
+     C           INNUM     IFEQ 1
+     C                     MOVE INNUM     RESTS
+     C           RESTS     CAT  OUNUM     OUNUM
+     C                     ENDIF
+     C           OUNUM     DSPLY
+     C                     SETON                         LR
+     C* EXECUTION EXAMPLE
+     C* CALL TOBASE2 PARM(X'00010F')
