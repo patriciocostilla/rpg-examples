@@ -25,10 +25,17 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 
 ### File managing
 
+#### Sequential access
+
 1. Read a file and show it's records on screen.
 1. Read a file and count the amount of records.
 1. Read a file and calculate the sum of one numeric field.
+1. Read a file and calculate the product of one numeric field.
 1. Read a file and calculate the average of one numeric field.
 1. Read a file and update one column on all the records.
 1. Read a file and update one column on one specific record, based on a given Key.
 1. Mass insert records on a file.
+
+#### Indexed access
+
+1. TO DO

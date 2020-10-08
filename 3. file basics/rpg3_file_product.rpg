@@ -1,0 +1,14 @@
+     F* FILE DEFINITION                                    
+     FMYFILE  IF  E                    DISK                
+     C* VARIABLE INITIALIZATION                            
+     C                     Z-ADD1         TOT     60       
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C           FLD2      MULT TOT       TOT              
+     C                     READ MYFILE                   90
+     C                     ENDDO                           
+     C           TOT       DSPLY                           
+     C                     SETON                         LR
+     C* EXAMPLE CALL                                       
+     C* CALL FILEREAD                                      
