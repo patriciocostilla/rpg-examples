@@ -1,0 +1,11 @@
+     F* FILE DEFINITION                                    
+     FMYFILE  IF  E                    DISK                
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C           ID        DSPLY                           
+     C                     READ MYFILE                   90
+     C                     ENDDO                           
+     C                     SETON                         LR
+     C* EXAMPLE CALL                                       
+     C* CALL FILEREAD                                      

@@ -1,0 +1,15 @@
+     F* FILE DEFINITION                                           
+     FMYFILE  O   E                    DISK                      A
+     C* PARAMETER LIST                                            
+     C           *ENTRY    PLIST                                  
+     C                     PARM           RECN    10              
+     C* PROGRAM START                                             
+     C           1         DO   RECN      IDX     20              
+     C                     Z-ADDIDX       ID                      
+     C                     MOVEL'JOHN'    FLD1                    
+     C                     Z-ADDIDX       FLD2                    
+     C                     WRITEREMYFILE                          
+     C                     ENDDO                                  
+     C                     SETON                         LR       
+     C* EXAMPLE CALL                                              
+     C* CALL FILELOAD PARM(X'3F')                                 

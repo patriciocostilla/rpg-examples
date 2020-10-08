@@ -1,0 +1,31 @@
+     F* FILE DEFINITION                                    
+     FMYFILE  IF  E                    DISK                
+     C* PARAMETER LIST                                     
+     C           *ENTRY    PLIST                           
+     C                     PARM           RECN    20       
+     C* VARIABLE INITIALIZATION                            
+     C                     MOVEL*BLANKS   MYSTR  33        
+     C                     MOVEL*BLANKS   TMPST   4        
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C                     MOVE ID        TMPST            
+     C           MYSTR     CAT  TMPST:0   MYSTR            
+     C           MYSTR     CAT  FLD1:0    MYSTR            
+     C                     MOVE FLD2      TMPST            
+     C           MYSTR     CAT  TMPST:0   MYSTR            
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C                     MOVE ID        TMPST            
+     C           MYSTR     CAT  TMPST:0   MYSTR            
+     C           MYSTR     CAT  FLD1:0    MYSTR            
+     C                     MOVE FLD2      TMPST            
+     C           MYSTR     CAT  TMPST:0   MYSTR            
+     C           MYSTR     DSPLY                           
+     C                     MOVEL*BLANKS   MYSTR            
+     C                     READ MYFILE                   90
+     C                     ENDDO                           
+     C                     SETON                         LR
+     C* EXAMPLE CALL                                       
+     C* CALL FILEREAD2                                     
