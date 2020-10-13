@@ -1,0 +1,12 @@
+     F* FILE DEFINITION                                    
+     FMYFILE  UF  E                    DISK                
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C                     Z-ADD0         FLD2             
+     C                     UPDATREMYFILE                   
+     C                     READ MYFILE                   90
+     C                     ENDDO                           
+     C                     SETON                         LR
+     C* EXAMPLE CALL                                       
+     C* CALL FILEUPD                                       

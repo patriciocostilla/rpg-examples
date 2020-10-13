@@ -1,0 +1,18 @@
+     F* FILE DEFINITION                                    
+     FMYFILE  UF  E                    DISK                
+     C* PARAMETER LIST                                     
+     C           *ENTRY    PLIST                           
+     C                     PARM           PID     40       
+     C* PROGRAM START                                      
+     C                     READ MYFILE                   90
+     C           *IN90     DOWEQ*OFF                       
+     C           ID        IFEQ PID                        
+     C                     MOVEL*BLANKS   FLD1             
+     C                     MOVEL'WINNER'  FLD1             
+     C                     UPDATREMYFILE                   
+     C                     ENDIF                           
+     C                     READ MYFILE                   90
+     C                     ENDDO                           
+     C                     SETON                         LR
+     C* EXAMPLE CALL                                       
+     C* CALL FILEUPD2 PARM(X'00005F')                      
