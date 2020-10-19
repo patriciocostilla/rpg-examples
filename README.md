@@ -22,6 +22,7 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 1. Given an arbitrary number N, determine if it is a prime number.
 1. Show on screen all the even numbers from 1 to N, given an arbitrary N.
 1. Print on screen the first N prime numbers, given an arbitrary N.
+1. Given a date in YYYYMMDD format, parse it to DDMMYYYY format
 
 ### File managing
 
@@ -37,5 +38,9 @@ If you're using SEU, keep in mind that it does not behave well when you use full
 1. Mass insert records on a file.
 
 #### Indexed access
+
+1. TO DO
+
+### Report Generation
 
 1. TO DO
