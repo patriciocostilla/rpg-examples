@@ -11,3 +11,11 @@
      Pfactorial        b                        
      D                 pi            10s 0      
      D n                              1s 0 value
+     C*                           
+       if (n = 0);                
+        return 1;                 
+       else;                      
+        return n * factorial(n-1);
+       endif;                     
+     p                 e          
+
