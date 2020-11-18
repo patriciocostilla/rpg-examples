@@ -1,0 +1,7 @@
+ INIT:       PGM                                               
+ VARS:       DCL        VAR(&TIME) TYPE(*DEC) LEN(2 0) VALUE(5)
+ COMPILE:    CRTBNDRPG  PGM(PCOSTILLA/BOMBRECUR) +             
+                          SRCFILE(PCOSTILLA/QRPGLESRC) +       
+                          SRCMBR(BOMBRECUR) DFTACTGRP(*NO) +   
+                          DBGVIEW(*SOURCE)                     
+ CALL:       CALL       PGM(PCOSTILLA/BOMBRECUR) PARM(&time)   
