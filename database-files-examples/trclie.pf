@@ -1,0 +1,13 @@
+                                            UNIQUE
+                R RETRCLIE
+                  CLDNI          8S 0       COLHDG('CL.DNI')
+                                            TEXT('CLIENT DNI')
+                  CLNAME        30A         COLHDG('CL.NAME')
+                                            TEXT('CLIENT NAME')
+     A            CLCRTS          Z         COLHDG('CRT TSTAMP')
+     A            CLCRUS        10A         COLHDG('CRT USER')
+     A            CLUPTS          Z         COLHDG('UPD TSTAMP')
+     A            CLUPUS        10A         COLHDG('UPD USER')
+     A            CLDETS          Z         COLHDG('DLT TSTAMP')
+     A            CLDEUS        10A         COLHDG('DLT USER')
+                K CLDNI
