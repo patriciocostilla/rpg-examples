@@ -1,0 +1,6 @@
+     A          R USERR
+     A            USID           4S         COLHDG('USER ID')
+     A            USNAME        20A         COLHDG('USER NAME')
+     A            USPASS        20S 0       COLHDG('USER PASSWORD')
+     A            USACT          1S 0       COLHDG('IS ACTIVE')
+     A            USLGDT          Z         COLHDG('LAST LOGIN')
